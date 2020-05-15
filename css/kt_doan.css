@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  background-image: url('1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  width:100%;
+  height:20%;
+}
+#top
+{
+	text-align: center;
+	width: 100%;
+	background-color: #CFCFCF;
+	float: left;
+}
+#header left h1 {
+	background-image:
+	text-align: center;
+	color:red;
+}
+#bottom
+{
+	width: 100%;
+	float: left;
+	background-color: #00D3FF;
+	padding-left: 135px;
+}
+#content
+{
+	width: 80%;
+	margin: 0 auto;
+}
+#header
+{
+	width: 100%;
+	float: left;
+	background-color: #FFFFFF;
+}
+#header_left
+{
+	width: 100%;
+	float: left;
+}
+#header_left img
+{
+	width: 90px;
+	height: auto;
+}
+#header_left h1
+{
+	display: inline-block;
+	position: absolute;
+	top: 25px;
+	left: 228px;
+}
+#header_right
+{
+	width: 60%;
+	float: right;
+	margin-top: 20px;
+	line-height: 20px;
+}
+#header_right input[type="text"]
+{
+	width: 500px;
+	border: 4px solid orange;
+	border-radius: 5px;
+}
+
+#menu
+{
+	width: 100%;
+	background: linear-gradient(to top, gray, white);
+	float: left;
+}
+#menu ul li
+{
+	list-style: none;
+	padding: 10px 12px;
+	float: left;
+}
+#menu ul li a
+{
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+#menu ul li:hover
+{
+	background-color: orange;
+	border-radius: 5px;
+}
+#main
+{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+#main_left
+{
+	width: 20%;
+	float: left;
+	background-color: #8C8C8C;
+	text-align: center;
+	min-height: 340px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#main_left ul li
+{
+	list-style: none;
+	padding: 10px;
+}
+#main_left ul li a
+{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+#main_left ul li:hover
+{
+	background-color: orange;
+	border-radius: 5px;
+}
+#main_right
+{
+	width: 80%;
+	float: right;
+	background-color: antiquewhite;
+	padding: 30px;
+}
+#main_right img{
+	width: 145px;
+	height: 100px;
+}
+#main_right ul li
+{
+	list-style: none;
+	float: left;
+	text-align: center;
+	margin: 10px 5px;
+}
+#main_right ul li a
+{
+	text-decoration: none;
+	color: orangered;
+}
+#bottom select
+{
+	padding: 10px 12px;
+	border-radius: 5px;
+	width: 150px;
+}
+#bottom input[type="button"]
+{
+	text-align: center;
+	padding: 10px 15px;
+	background-color: #0044FF;
+	border-radius: 5px;
+}
+.after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
